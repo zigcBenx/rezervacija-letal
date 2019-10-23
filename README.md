@@ -4,14 +4,16 @@ Spletna aplikacija za vodenje rezervacij letal v letalski šoli
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Nek basic sh*t kaj ker naslov spodi pomen...
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Laravel
+Vue.js
+???
 ```
 
 ### Installing
@@ -21,7 +23,10 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+clone this repo
+run: npm install
+run: composer require...
+???
 ```
 
 And repeat
@@ -58,9 +63,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Laravel](http://www.laravel.com) - The web framework used
+* [Vue.js](https://www.vue.com/) - Javascript framework
+
 
 ## Contributing
 
