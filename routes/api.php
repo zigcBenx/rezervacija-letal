@@ -23,3 +23,9 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
     // Tasks Calendars
     Route::apiResource('tasks-calendars', 'TasksCalendarApiController', ['except' => ['store', 'show', 'update', 'destroy']]);
 });
+
+Route::get('/flight','FlightController@flights');
+Route::get('/flight/{id}','FlightController@flights');
+Route::post('/flight','FlightController@flightSave');
+Route::put('/flight/{flight}','FlightController@flightUpdate');
+Route::delete('/flight/{flight}','FlightController@flightDelete');

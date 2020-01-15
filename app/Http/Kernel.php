@@ -30,6 +30,9 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\AuthGates::class,
             \App\Http\Middleware\SetLocale::class,
         ],
+        'api' => [
+            \App\Http\Middleware\AuthKey::class,
+        ],
     ];
 
     protected $routeMiddleware = [
